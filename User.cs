@@ -24,5 +24,7 @@ namespace ApiSiraj.Repository.Models
         [StringLength(50)]
         public string Admin { get; set; }
         public bool? Status { get; set; }
+        [StringLength(50)]
+        public string Siraj { get; set; }
     }
 }
